@@ -1,0 +1,21 @@
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+header h1 img{
+    width: 125px;
+}
+
+header {
+    background-color: rgb(8, 0, 77);
+    padding: 20px 0;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}

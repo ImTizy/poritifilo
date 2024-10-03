@@ -3,7 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+    
+    <footer>
+        <a href="https://github.com/ImTizy" target="_blank" rel="noopener noreferrer">
+            <img src="./chevron-left-solid.svg"></img>
+            <p>Voltar</p>
+    </footer>
 
     <title>Calculo de times de basquete 3x3</title>
     <style>
@@ -11,7 +17,6 @@
             font-family: Arial, sans-serif;
             text-align: center;
             margin-top: 50px;
-            letter-spacing: 3px;
         }
         .feedback {
             margin-top: 20px;
@@ -27,6 +32,7 @@
     </style>
 </head>
 <body>
+    <i class="fa-solid fa-chevron-left"></i>
     <h1>Basquete 3x3</h1>
     <input type="number" id="inscritos" placeholder="Inscritos" min="1">
     <button onclick="adicionarInscrito()">Adicionar Inscrito</button>

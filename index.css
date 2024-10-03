@@ -37,3 +37,28 @@ nav li a{
     margin: 50px;
 }
 
+.buttonns {
+    justify-content: center;
+    display: flex;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    margin: 20px;
+    text-align: center
+}
+
+footer p {
+    margin-top: 2px;
+}
